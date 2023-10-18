@@ -19,3 +19,4 @@ const cor = 'vermelho';
 const corPadrao = cor || 'branco'
 
 console.log(corPadrao)
+
