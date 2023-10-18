@@ -20,7 +20,7 @@ body {
 
 .container {
     max-width: 640px; /*tamanho*/
-    margin: 50px auto; /*TOPO E PARTE DE BAIXO*/
+    margin: 100px auto; /*TOPO E PARTE DE BAIXO*/
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -57,4 +57,12 @@ from button:hover{
 }
 from button:active{
     background: red;
+}
+
+.paragrafo-resultado, .bad {
+    background: #02b911;
+    padding: 10px 20px;
+}
+.bad {
+    background: #ca0101;
 }
