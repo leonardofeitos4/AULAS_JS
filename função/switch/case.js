@@ -29,8 +29,8 @@ function getDiaSemanaTexto(diaSemana) {
     }
   }
   
-  const data = new Date('2023-10-28 00:00:00');
-  const diaSemana = data.getDay();
+  const data = new Date('2023-10 -28 00:00:00');
+  const diaSemana = data.getDay(); 
   const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
   
   console.log(diaSemana, diaSemanaTexto);
